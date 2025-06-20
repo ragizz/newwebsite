@@ -6,7 +6,12 @@ import SideBar from "../components/SideBar.astro";
 import { ViewTransitions } from "astro:transitions";
 
 import { SITE_TITLE, SITE_DESCRIPTION, TRANSITION_API } from "../config";
+---
+// Inside Header.astro or BaseLayout.astro
+import ThemeSelector from "../components/ThemeSelector.astro";
+---
 
+<ThemeSelector />
 const {
   image,
   title = SITE_TITLE,
