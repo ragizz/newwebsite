@@ -2,7 +2,7 @@
 title: "Why vaccines still matter"
 description: "Context: anti-vaccine Karens"
 pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
+heroImage: "/itemPreview.webp"
 tags: ["tokio"]
 ---
 
