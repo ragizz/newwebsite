@@ -1,53 +1,22 @@
+---
+import ThemeSelector from "./ThemeSelector.astro";
+---
 <div
-class="sticky lg:shadow-none lg:backdrop-blur-none lg:bg-opacity-0 top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 bg-base-100 text-base-content shadow-sm"
+  class="sticky lg:shadow-none lg:backdrop-blur-none lg:bg-opacity-0 top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 bg-base-100 text-base-content shadow-sm"
 >
   <div class="navbar">
     <div class="navbar-start">
-      <label for="my-drawer" class="btn btn-square btn-ghost">
+      <label for="my-drawer" class="btn btn-square btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"
           ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </label>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost normal-case text-xl" href="/">Prajwal Regmi</a>
+      <a class="btn btn-ghost normal-case text-xl lg:hidden" href="/">Prajwal Regmi</a>
     </div>
-
-<div class="dropdown dropdown-end">
-  <label tabindex="0" class="btn btn-sm m-1">Theme</label>
-  <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-60 max-h-96 overflow-y-auto">
-    <li><a onclick="setTheme('light')" class="bg-light text-base-content hover:bg-light">light</a></li>
-    <li><a onclick="setTheme('dark')" class="bg-dark text-base-content hover:bg-dark">dark</a></li>
-    <li><a onclick="setTheme('cupcake')" class="bg-cupcake text-base-content hover:bg-cupcake">cupcake</a></li>
-    <li><a onclick="setTheme('bumblebee')" class="bg-bumblebee text-base-content hover:bg-bumblebee">bumblebee</a></li>
-    <li><a onclick="setTheme('corporate')" class="bg-corporate text-base-content hover:bg-corporate">corporate</a></li>
-    <li><a onclick="setTheme('synthwave')" class="bg-synthwave text-base-content hover:bg-synthwave">synthwave</a></li>
-    <li><a onclick="setTheme('retro')" class="bg-retro text-base-content hover:bg-retro">retro</a></li>
-    <li><a onclick="setTheme('cyberpunk')" class="bg-cyberpunk text-base-content hover:bg-cyberpunk">cyberpunk</a></li>
-    <li><a onclick="setTheme('valentine')" class="bg-valentine text-base-content hover:bg-valentine">valentine</a></li>
-    <li><a onclick="setTheme('halloween')" class="bg-halloween text-base-content hover:bg-halloween">halloween</a></li>
-    <li><a onclick="setTheme('garden')" class="bg-garden text-base-content hover:bg-garden">garden</a></li>
-    <li><a onclick="setTheme('forest')" class="bg-forest text-base-content hover:bg-forest">forest</a></li>
-    <li><a onclick="setTheme('aqua')" class="bg-aqua text-base-content hover:bg-aqua">aqua</a></li>
-    <li><a onclick="setTheme('lofi')" class="bg-lofi text-base-content hover:bg-lofi">lofi</a></li>
-    <li><a onclick="setTheme('pastel')" class="bg-pastel text-base-content hover:bg-pastel">pastel</a></li>
-    <li><a onclick="setTheme('fantasy')" class="bg-fantasy text-base-content hover:bg-fantasy">fantasy</a></li>
-    <li><a onclick="setTheme('wireframe')" class="bg-wireframe text-base-content hover:bg-wireframe">wireframe</a></li>
-    <li><a onclick="setTheme('black')" class="bg-black text-white hover:bg-black">black</a></li>
-    <li><a onclick="setTheme('luxury')" class="bg-luxury text-base-content hover:bg-luxury">luxury</a></li>
-    <li><a onclick="setTheme('dracula')" class="bg-dracula text-base-content hover:bg-dracula">dracula</a></li>
-    <li><a onclick="setTheme('cmyk')" class="bg-cmyk text-base-content hover:bg-cmyk">cmyk</a></li>
-    <li><a onclick="setTheme('autumn')" class="bg-autumn text-base-content hover:bg-autumn">autumn</a></li>
-    <li><a onclick="setTheme('business')" class="bg-business text-base-content hover:bg-business">business</a></li>
-    <li><a onclick="setTheme('acid')" class="bg-acid text-base-content hover:bg-acid">acid</a></li>
-    <li><a onclick="setTheme('lemonade')" class="bg-lemonade text-base-content hover:bg-lemonade">lemonade</a></li>
-    <li><a onclick="setTheme('night')" class="bg-night text-base-content hover:bg-night">night</a></li>
-    <li><a onclick="setTheme('coffee')" class="bg-coffee text-base-content hover:bg-coffee">coffee</a></li>
-    <li><a onclick="setTheme('winter')" class="bg-winter text-base-content hover:bg-winter">winter</a></li>
-  </ul>
-</div>
-</div>
-
-    <div class="navbar-end"></div>
+    <div class="navbar-end">
+      <ThemeSelector/>
+    </div>
   </div>
 </div>
