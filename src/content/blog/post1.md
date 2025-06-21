@@ -1,9 +1,10 @@
 ---
 title: "Why vaccines still matter"
-description: "Context: anti-vaccine Karens"
-pubDate: "Sep 10 2022"
+description: "Context: Anti-vaccine Karens"
+pubDate: "Jun 10 2023"
 heroImage: "/itemPreview.webp"
-tags: ["tokio"]
+badge: "Featured"
+tags: ["vaccine","vaccination","COVID"]
 ---
 
 Most of us weren’t around when measles filled hospital wards.
