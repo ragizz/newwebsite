@@ -2,7 +2,7 @@
 title: "The love that I know"
 description: "Love and how it makes sense to me while being utterly nonsense"
 pubDate: "Jul 4 2025"
-heroImage: "/post_img.webp"
+heroImage: "/favicon.svg"
 ---
 
 The love that I know doesn’t knock on the door— 
