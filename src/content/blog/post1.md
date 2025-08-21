@@ -2,7 +2,7 @@
 title: "Why vaccines still matter"
 description: "Context: Anti-vaccine Karens"
 pubDate: "Jun 10 2023"
-heroImage: "/IMG_0675.webp"
+heroImage: "/IMG_0678.png"
 tags: ["vaccine","vaccination","COVID"]
 ---
 
