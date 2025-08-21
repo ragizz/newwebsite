@@ -1,9 +1,13 @@
-title: “When You Love Someone”
-description: “Context: The courage and irony of love”
-pubDate: “Aug 21 2025”
-heroImage: “/itemPreview.webp”
-badge: “Featured”
-tags: [“love”,“bravery”,“heartbreak”]
+---
+title: "When you love someone"
+description: "They say you gotta be a fighter if you are a lover cause if you don't fight for your love, what kind of lover are you... "
+pubDate: "Jun 10 2025"
+heroImage: "/itemPreview.webp"
+badge: "love"
+tags: ["vaccine","vaccination","COVID"]
+---
+
+
 
 When you love someone, you have to be brave.
 
