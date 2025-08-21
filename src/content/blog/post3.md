@@ -3,8 +3,8 @@ title: "When you love someone"
 description: "They say you gotta be a fighter if you are a lover cause if you don't fight for your love, what kind of lover are you... "
 pubDate: "Jun 10 2025"
 heroImage: "/IMG_0677.png"
-badge: "love"
-tags: ["vaccine","vaccination","COVID"]
+badge: "new"
+tags: ["love"]
 ---
 
 
