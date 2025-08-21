@@ -37,4 +37,4 @@ is just not brave enough.
 
 
 
-. not my original creation found it amazing so I kept it.
+* not my original creation found it amazing so I kept it.
