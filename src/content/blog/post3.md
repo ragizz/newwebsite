@@ -4,7 +4,7 @@ description: "They say you gotta be a fighter if you are a lover cause if you do
 pubDate: "Jun 10 2025"
 heroImage: "/IMG_0677.png"
 badge: "new"
-tags: ["love"]
+tags: ["in love"]
 ---
 
 
